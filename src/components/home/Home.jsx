@@ -1,3 +1,4 @@
+import Hero from "../hero/Hero";
 import Footer from "../shared/Footer";
 import Header from "../shared/Header";
 
@@ -5,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <h1>This is Home component</h1>
+      <Hero />
       <Footer />
     </div>
   );
