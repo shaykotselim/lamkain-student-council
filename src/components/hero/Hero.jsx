@@ -13,10 +13,10 @@ const Hero = () => {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-[70%]">
-            <h1 className="mb-5 text-3xl font-bold">
+            <h1 className="mb-5 text-xl md:text-2xl lg:text-3xl font-bold">
               Empowering Students, Serving Communities
             </h1>
-            <p className="mb-5">
+            <p className="text-sm mb-5">
               Uniting youth through sports, social service, and disaster relief.
               Together, we build a stronger, more compassionate world.
             </p>
