@@ -7,7 +7,7 @@ import { FiAlignJustify } from "react-icons/fi";
 
 const Header = () => {
   return (
-    <div className="navbar z-50 fixed shadow-md  bg-opacity-40 bg-black transition ease-in-out duration-1000 h-28 ">  
+    <div className="navbar z-50 fixed  shadow-md  bg-opacity-40 bg-black transition ease-in-out duration-1000 h-28 ">  
       <div className="navbar-start">
         <div className="dropdown lg:flex lg:gap-9">
           <div tabIndex={0} role="button" className="text-4xl text-white lg:hidden">
