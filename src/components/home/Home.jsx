@@ -1,3 +1,4 @@
+import Cta from "../cta/Cta";
 import Hero from "../hero/Hero";
 import Introduction from "../introduction/Introduction";
 import Footer from "../shared/Footer";
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <Hero />
       <Introduction />
+      <Cta/>
       <Footer />
     </div>
   );

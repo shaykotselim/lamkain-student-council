@@ -28,7 +28,7 @@ const Introduction = () => {
             uplifting those in need. We believe in the power of students to make
             a difference and lead the way in creating a brighter future for all.
           </p>
-          <p className="text-left font-normal mt-4 border-blue-400 border-b-4"></p>
+          <p className="text-left font-normal mt-4 border-black border-b-4"></p>
         </div>
       </div>
     </div>
