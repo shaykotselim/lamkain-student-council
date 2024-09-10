@@ -3,12 +3,25 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import "swiper/css";
-import firstImage from "../../assets/Image/hero.jpg";
-import secondImage from "../../assets/Image/hero2.jpg";
-import thirdImage from "../../assets/Image/hero.jpg";
-import fourthImage from "../../assets/Image/hero.jpg";
-import fiveImage from "../../assets/Image/hero.jpg";
-import sixImage from "../../assets/Image/hero.jpg";
+import firstImage from "../../assets/Image/sports/sports1.jpg";
+import secondImage from "../../assets/Image/sports/sports2.jpg";
+import thirdImage from "../../assets/Image/sports/sports3.jpg";
+import fourthImage from "../../assets/Image/sports/sports4.jpg";
+import fiveImage from "../../assets/Image/sports/sports5.jpg";
+import sixImage from "../../assets/Image/sports/sports6.jpg";
+import sevenImage from "../../assets/Image/sports/sports7.jpg";
+import eightImage from "../../assets/Image/sports/sports8.jpg";
+import nineImage from "../../assets/Image/sports/sports9.jpg";
+import tenImage from "../../assets/Image/sports/sports10.jpg";
+import elevenImage from "../../assets/Image/sports/sports11.jpg";
+import twelveImage from "../../assets/Image/sports/sports12.jpg";
+import thirtyImage from "../../assets/Image/sports/sports13.jpg";
+import foutyImage from "../../assets/Image/sports/sports14.jpg";
+import fifteenImage from "../../assets/Image/sports/sports15.jpg";
+import sixteenImage from "../../assets/Image/sports/sports16.jpg";
+import seventyImage from "../../assets/Image/sports/sports17.jpg";
+
+
 import Image from "next/image";
 const Gallery = () => {
   return (
@@ -20,7 +33,7 @@ const Gallery = () => {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={2}
+        slidesPerView={3}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -30,7 +43,7 @@ const Gallery = () => {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper mt-8 md:mt-10 lg:mt-20"
+        className="mySwiper w-[100%]"
         breakpoints={{
           // When window width is >= 640px (desktop)
           640: {
@@ -47,6 +60,51 @@ const Gallery = () => {
         </SwiperSlide>
         <SwiperSlide className="">
           <Image className="w-full h-[400px]" src={secondImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={thirdImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={fourthImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={fiveImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={sixImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={sevenImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={eightImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={nineImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={tenImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={elevenImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={twelveImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={thirtyImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={foutyImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={fifteenImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={sixteenImage} alt="Gallery" />
+        </SwiperSlide>
+        <SwiperSlide className="">
+          <Image className="w-full h-[400px]" src={seventyImage} alt="Gallery" />
         </SwiperSlide>
         ...
       </Swiper>
