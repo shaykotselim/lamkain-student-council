@@ -13,10 +13,15 @@ const Introduction = () => {
           ></Image>
         </div>
         <div className="col-span-2">
-          <h1 className="text-left font-bold text-3xl p-8 border-black shadow-lg rounded-md">
+          <div className="mt-4 border  bg-gradient-to-r from-blue-700 to-blue-400 text-white rounded shadow-gray-400 shadow-lg">
+            <h1 className="p-4 text-xl font-extrabold hover:bg-gradient-to-l hover:from-blue-700 hover:to-blue-500">
             Introduction: Who We Are?
-          </h1>
-          <p className="text-left font-normal  p-8  shadow-2xl rounded-md">
+            </h1>
+          </div>
+          {/* <h1 className="text-left font-bold text-3xl p-8 border-black shadow-lg rounded-md">
+            Introduction: Who We Are?
+          </h1> */}
+          <p className="text-left font-normal  p-8  shadow-2xl rounded-md mt-4 lg:mt-8">
             Lamkine Student Council is a student-led organization dedicated to
             empowering youth through sports, community service, and humanitarian
             efforts. Our mission is to foster leadership, teamwork, and social
