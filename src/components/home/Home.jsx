@@ -1,6 +1,7 @@
 import About from "../about/About";
 import Cta from "../cta/Cta";
-import Gallery from "../gallery/Gallery";
+import ReliefGallery from "../gallery/ReliefGallery";
+import SportsGallery from "../gallery/SportsGallery";
 import Hero from "../hero/Hero";
 import Introduction from "../introduction/Introduction";
 import Footer from "../shared/Footer";
@@ -14,7 +15,8 @@ const Home = () => {
       <Introduction />
       <Cta/>
       <About/>
-      <Gallery/>
+      <SportsGallery/>
+      <ReliefGallery/>
      
       <Footer />
     </div>

@@ -5,7 +5,7 @@ const About = () => {
     <div className="bg-gradient-to-r from-orange-100 to-blue-200">
       <div className="border w-[20%] mx-auto p-2 bg-blue-800 text-white rounded">
         <h1 className="text-4xl">What We Do?</h1>
-        <p className="border-2 mt-1 w-[80%] border-black mx-auto"></p>
+        <p className=""></p>
       </div>
       <div className="lg:grid grid-cols-3 w-[95%] mx-auto">
         <div className="text-left  rounded p-4 ">

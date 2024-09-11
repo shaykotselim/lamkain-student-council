@@ -23,7 +23,7 @@ import seventyImage from "../../assets/Image/sports/sports17.jpg";
 
 
 import Image from "next/image";
-const Gallery = () => {
+const SportsGallery = () => {
   return (
     <div>
       <div className="border  w-[90%] md:w-[20%] lg:w-[20%] mx-auto bg-gradient-to-r from-blue-700 to-blue-400 text-white rounded shadow-gray-400 shadow-lg">
@@ -41,6 +41,7 @@ const Gallery = () => {
           modifier: 1,
           slideShadows: true,
         }}
+        initialSlide={1}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper w-[100%]"
@@ -112,4 +113,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default SportsGallery;
