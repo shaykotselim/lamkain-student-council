@@ -1,4 +1,5 @@
 import About from "../about/About";
+import CouncilRelevant from "../council-relevant/CouncilRelevant";
 import Cta from "../cta/Cta";
 import ReliefGallery from "../gallery/ReliefGallery";
 import SportsGallery from "../gallery/SportsGallery";
@@ -12,12 +13,13 @@ const Home = () => {
     <div>
       <Header />
       <Hero />
+      <CouncilRelevant />
       <Introduction />
-      <Cta/>
-      <About/>
-      <SportsGallery/>
-      <ReliefGallery/>
-     
+      <Cta />
+      <About />
+      <SportsGallery />
+      <ReliefGallery />
+
       <Footer />
     </div>
   );

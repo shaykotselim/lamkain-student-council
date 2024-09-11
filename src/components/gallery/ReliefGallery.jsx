@@ -13,9 +13,9 @@ import sixImage from "../../assets/Image/relief/relief6.jpg";
 import sevenImage from "../../assets/Image/relief/relief7.jpg";
 const ReliefGallery = () => {
   return (
-    <div>
-      <div className="border  w-[90%] md:w-[20%] lg:w-[20%] mx-auto bg-gradient-to-r from-blue-700 to-blue-400 text-white rounded shadow-gray-400 shadow-lg">
-        <h1 className=" p-4 text-xl font-extrabold hover:bg-gradient-to-l hover:from-blue-700 hover:to-blue-500 shadow-md shadow-white">
+    <div className="mt-10 md:mt-20 lg:mt-20">
+      <div className="mt-4 borde mx-auto w-[95%] md:w-[20%] lg:w-[20%] hover:bg-black hover:text-white  bg-[#fffdf2] text-black rounded shadow-black shadow-lg">
+        <h1 className=" p-4 text-xl font-extrabold">
           Disaster Relief Gallery
         </h1>
       </div>
@@ -34,7 +34,7 @@ const ReliefGallery = () => {
         initialSlide={1}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper w-[100%]"
+        className="mySwiper w-[90%] md:w-[100%] lg:w-[100%] mt-10 md:mt-20 lg:mt-20 rounded"
         breakpoints={{
           // When window width is >= 640px (desktop)
           640: {
