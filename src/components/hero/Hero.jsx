@@ -1,5 +1,5 @@
 import React from "react";
-import backgroudImage from "../../assets/Image/hero3.jpg";
+import backgroudImage from "../../assets/Image/hero.jpg";
 
 const Hero = () => {
   return (
