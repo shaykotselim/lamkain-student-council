@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import biddut from "../../assets/Image/about/biddut4.png";
+import biddut from "../../assets/Image/about/bidut.jpg";
 import tanvir from "../../assets/Image/about/tanvir-ahmed.jpg";
 import mustakim from "../../assets/Image/about/mostakim.jpg";
 const About = () => {
@@ -32,18 +32,18 @@ const About = () => {
             <p className="text-md font-normal text-gray-700">
               From organizing sports activities that encourage physical fitness
               and teamwork to participating in relief efforts during times of
-              disaster, Lamkine Student Council is committed to making a
+              disaster, Lamkain Student Council is committed to making a
               meaningful impact.
             </p>
           </div>
         </div>
         <div className="mt-20">
           <h1 className="text-4xl font-bold text-center mb-6">
-            About Lamkine Student Council
+            About Lamkain Student Council
           </h1>
 
           <p className="text-left md:text-center lg:text-center text-sm font-normal text-gray-700 mb-6">
-            At Lamkine Student Council, we are dedicated to making a difference
+            At Lamkain Student Council, we are dedicated to making a difference
             in our community through active engagement in sports, social
             initiatives, and disaster relief efforts. Our student-driven
             organization fosters teamwork, leadership, and social responsibility
@@ -65,10 +65,10 @@ const About = () => {
             </div>
             <h2 className="text-2xl font-bold">Nazmul Ahmed Biddut</h2>
             <p className="text-sm font-normal mb-4">
-              President, Lamkine Student Council
+              President, Lamkain Student Council
             </p>
             <p className="text-md font-normal text-gray-700 mb-6">
-              As the President of the Lamkine Student Council, it is a great
+              As the President of the Lamkain Student Council, it is a great
               honor for me to share a few words with all of you today. Our
               journey, as an organization committed to promoting sports,
               fostering social responsibility, and responding to crises, has
@@ -88,11 +88,11 @@ const About = () => {
             </div>
             <h2 className="text-2xl font-bold">Tanvir Ahmed</h2>
             <p className="text-sm font-normal mb-4">
-              Chief Advisor, Lamkine Student Council
+              Chief Advisor, Lamkain Student Council
             </p>
             <p className="text-md font-normal text-gray-700 mb-6">
               It is with great pride that I address you today as the Chief
-              Advisor of the Lamkine Student Council. Over the years, we have
+              Advisor of the Lamkain Student Council. Over the years, we have
               seen this council grow from a small, student-led organization to a
               dynamic force for change in our community. What began as a simple
               initiative to engage students in sports and social activities has
@@ -111,7 +111,7 @@ const About = () => {
             </div>
             <h2 className="text-2xl font-bold">Mustakim Ahmed Riyedh</h2>
             <p className="text-sm font-normal mb-4">
-              General Secretary, Lamkine Student Council
+              General Secretary, Lamkain Student Council
             </p>
             <p className="text-md font-normal text-gray-700">
               As General Secretary, I have had the privilege of working closely

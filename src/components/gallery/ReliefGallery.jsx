@@ -13,6 +13,7 @@ import sixImage from "../../assets/Image/relief/relief6.jpg";
 import sevenImage from "../../assets/Image/relief/relief7.jpg";
 const ReliefGallery = () => {
   return (
+
     <div className="mt-10 md:mt-20 lg:mt-20">
       <div className="mt-4 borde mx-auto w-[95%] md:w-[20%] lg:w-[20%] hover:bg-black hover:text-white  bg-[#fffdf2] text-black rounded shadow-black shadow-lg">
         <h1 className=" p-4 text-xl font-extrabold">

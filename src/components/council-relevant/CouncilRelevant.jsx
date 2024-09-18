@@ -6,9 +6,10 @@ import getInvolved from "../../assets/Image/council/connect.gif";
 import giveBack from "../../assets/Image/council/hand.gif";
 const CouncilRelevant = () => {
   return (
+     
     <div>
       <div className="">
-        <h1 className="text-center text-3xl lg:text-4xl pt-4 md:pt-6 lg:pt-8">The Relevant of Lamkine Student Council</h1>
+        <h1 className="text-center text-3xl lg:text-4xl pt-4 md:pt-6 lg:pt-8">The Relevant of Lamkain Student Council</h1>
       </div>
       <div className="md:grid lg:grid grid-cols-3 gap-8 w-[95%] mx-auto mt-8">
         <section
@@ -23,7 +24,7 @@ const CouncilRelevant = () => {
               Helping Hand
             </h2>
             <p className="text-md font-light text-gray-700 text-left">
-              At Lamkine Student Council, our commitment to providing aid during
+              At Lamkain Student Council, our commitment to providing aid during
               times of crisis is at the heart of our mission. Our Helping Hand
               initiative focuses on delivering essential relief to those
               affected by natural disasters, health emergencies, and other
@@ -65,7 +66,7 @@ const CouncilRelevant = () => {
               Giving Back
             </h2>
             <p className="text-md font-light text-gray-700 text-left">
-              Giving back is a core value of the Lamkine Student Council. In
+              Giving back is a core value of the Lamkain Student Council. In
               this section, we highlight the many ways our members and
               supporters contribute to the betterment of society. Our Giving
               Back initiative encompasses everything from organizing charity

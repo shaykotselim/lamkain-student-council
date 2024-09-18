@@ -25,14 +25,14 @@ const Introduction = () => {
               Who We Are?
             </h2>
             <p className="text-md font-light text-gray-700 text-left">
-              Lamkine Student Council is a student-led organization dedicated to
+              Lamkain Student Council is a student-led organization dedicated to
               empowering youth through sports, community service, and
               humanitarian efforts. Our mission is to foster leadership,
               teamwork, and social responsibility by engaging students in
               activities that build stronger, more compassionate communities.{" "}
               <br /> From organizing sports events that promote physical health
               and unity to providing critical relief during natural disasters,
-              such as floods and the COVID-19 pandemic, Lamkine Student Council
+              such as floods and the COVID-19 pandemic, Lamkain Student Council
               plays a vital role in uplifting those in need. We believe in the
               power of students to make a difference and lead the way in
               creating a brighter future for all.
