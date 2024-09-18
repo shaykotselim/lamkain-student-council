@@ -5,6 +5,7 @@ import Link from "next/link";
 import logo from "../../assets/Image/logo1.png";
 import { FiAlignJustify } from "react-icons/fi";
 import { useEffect, useState } from "react";
+import { scrollToSection } from "../utils/utils";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -48,21 +49,58 @@ const Header = () => {
                 : "bg-black bg-opacity-70 transition ease-in-out duration-1000"
             }`}
           >
-            <li className={`border-b-2 px-4 py-3 ${isScrolled? "text-black border-black": "text-white border-white"}`}>
-              <Link href="/">Home</Link>
+            <li
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("hero");
+              }}
+              className={`border-b-2 px-4 py-3 ${
+                isScrolled
+                  ? "text-black border-black"
+                  : "text-white border-white"
+              }`}
+            >
+              <span>Home</span>
             </li>
-            
-            <li className={`border-b-2 px-4 py-3 ${isScrolled? "text-black border-black": "text-white border-white"}`}>
-              <Link href="/">Blog</Link>
+            <li
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("about");
+              }}
+              className={`border-b-2 px-4 py-3 ${
+                isScrolled
+                  ? "text-black border-black"
+                  : "text-white border-white"
+              }`}
+            >
+              <span>About</span>
             </li>
-            <li className={`border-b-2 px-4 py-3 ${isScrolled? "text-black border-black": "text-white border-white"}`}>
-              <Link href="/">Glarry</Link>
+
+            <li
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("gallery");
+              }}
+              className={`border-b-2 px-4 py-3 ${
+                isScrolled
+                  ? "text-black border-black"
+                  : "text-white border-white"
+              }`}
+            >
+              <span>Glarry</span>
             </li>
-            <li className={`border-b-2 px-4 py-3 ${isScrolled? "text-black border-black": "text-white border-white"}`}>
-              <Link href="/">Contact us</Link>
-            </li>
-            <li className={`border-b-2 px-4 py-3 ${isScrolled? "text-black border-black": "text-white border-white"}`}>
-              <Link href="/">About</Link>
+            <li
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("contact");
+              }}
+              className={`border-b-2 px-4 py-3 ${
+                isScrolled
+                  ? "text-black border-black"
+                  : "text-white border-white"
+              }`}
+            >
+              <span>Contact us</span>
             </li>
           </ul>
         </div>
@@ -80,39 +118,48 @@ const Header = () => {
       <div className="hidden lg:flex lg:ml-[700px] lg:items-start ">
         <ul className=" flex items-center gap-8 px-1">
           <li
-            className={`border-b-2 ${
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("hero");
+            }}
+            className={`border-b-2 cursor-pointer ${
               isScrolled ? "text-black border-black" : "text-white border-white"
             }`}
           >
-            <Link href="/">Home</Link>
+            <span>Home</span>
           </li>
           <li
-            className={`border-b-2 ${
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("about");
+            }}
+            className={`border-b-2 cursor-pointer ${
               isScrolled ? "text-black border-black" : "text-white border-white"
             }`}
           >
-            <Link href="/">Blog</Link>
+            <span>About</span>
           </li>
           <li
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("gallery");
+            }}
             className={`border-b-2 ${
               isScrolled ? "text-black border-black" : "text-white border-white"
             }`}
           >
-            <Link href="/">Glarry</Link>
+            <span>Glarry</span>
           </li>
           <li
-            className={`border-b-2 ${
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("contact");
+            }}
+            className={`border-b-2 cursor-pointer ${
               isScrolled ? "text-black border-black" : "text-white border-white"
             }`}
           >
-            <Link href="/">Contact</Link>
-          </li>
-          <li
-            className={`border-b-2 ${
-              isScrolled ? "text-black border-black" : "text-white border-white"
-            }`}
-          >
-            <Link href="/">About</Link>
+            <span href="/">Contact Us</span>
           </li>
         </ul>
       </div>

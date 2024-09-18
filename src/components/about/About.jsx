@@ -6,7 +6,10 @@ import tanvir from "../../assets/Image/about/tanvir-ahmed.jpg";
 import mustakim from "../../assets/Image/about/mostakim.jpg";
 const About = () => {
   return (
-    <div className=" w-[95%] mx-auto  bg-[#fffdf2] flex items-center justify-center">
+    <div
+      id="about"
+      className=" w-[95%] mx-auto  bg-[#fffdf2] flex items-center justify-center"
+    >
       <div className=" mx-auto p-8 bg-white shadow-lg rounded-lg">
         <div className=" md:grid lg:grid grid-cols-3 gap-12 bg-white">
           <div className="container text-left p-6 rounded shadow-md">

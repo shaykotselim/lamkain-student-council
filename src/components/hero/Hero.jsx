@@ -3,7 +3,7 @@ import backgroudImage from "../../assets/Image/hero.jpg";
 
 const Hero = () => {
   return (
-    <div>
+    <div id="hero">
       <div
         className="hero min-h-screen"
         style={{

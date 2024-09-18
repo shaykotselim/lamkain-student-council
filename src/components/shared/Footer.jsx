@@ -9,7 +9,7 @@ import { IoLogoYoutube } from "react-icons/io5";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div>
+    <div >
       {/* bg-gradient-to-b from-[#e4f5f5] to-slate-100 */}
       <section
         className="w-full p-10 bg-cover"
